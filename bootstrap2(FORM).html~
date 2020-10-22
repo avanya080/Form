@@ -63,7 +63,10 @@
                   <input type="checkbox" class="form-check-input" name="course" id="course">
                   <label class="form-check-label">JSP</label>
                 </div>
-
+<div class="form-check-inline">
+                  <input type="checkbox" class="form-check-input" name="course" id="course">
+                  <label class="form-check-label">java</label>
+                </div>
                 <div class="form-check-inline">
                   <input type="checkbox" class="form-check-input" name="course" id="course">
                   <label class="form-check-label">C++</label>
