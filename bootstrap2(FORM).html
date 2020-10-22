@@ -1,0 +1,125 @@
+<!--HTML5 DECLARARTION-->
+<!DOCTYPE>
+<html lang="en" dir="ltr">
+  <head>
+    <!--all meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My first form</title>
+    <!--Bootstrap CSS and other CSS files-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--Bootstrap JS and other JS files-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+
+
+        
+          <h1>Registration Form</h1>
+            <form>
+                <div class="form-group">
+                  <label>Full Name</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Full Name">
+                </div>
+
+                <!--creating form row-->
+                <div class="form-row">
+
+                <div class="form-group col-md-6">
+                  <label>E-Mail</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="E-Mail">
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label>Password</label>
+                  <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label>Residential address</label>
+                <input type="text" class="form-control" name="resadd" id="resadd" placeholder="Residential Address">
+              </div>
+
+              <!--form row start course and gender-->
+              <div class="form-row">
+              <div class="form-group col-md-6">
+                Courses: &nbsp;&nbsp;
+                <div class="form-check-inline">
+                  <input type="checkbox" class="form-check-input" name="course" id="course">
+                  <label class="form-check-label">PHP</label>
+                </div>
+
+                <div class="form-check-inline">
+                  <input type="checkbox" class="form-check-input" name="course" id="course">
+                  <label class="form-check-label">JSP</label>
+                </div>
+
+                <div class="form-check-inline">
+                  <input type="checkbox" class="form-check-input" name="course" id="course">
+                  <label class="form-check-label">C++</label>
+                </div>
+              </div>
+
+                <div class="form-group col-md-6">
+                  <!--radio button-->
+                  Gender: &nbsp;&nbsp;
+                  <div class="form-check-inline">
+                    <input type="radio" name="gen" id="gen" class="form-check-input">
+                    <label class="form-check-label">Male</label>
+
+                  </div>
+
+                  <div class="form-check-inline">
+                    <input type="radio" name="gen" id="gen" class="form-check-input">
+                    <label class="form-check-label">Female</label>
+
+                  </div>
+                </div>
+              </DIV>
+
+                <!--creating form row-->
+              <div class="form-row">
+              <div class="form-group col-md-6">
+                <label>City</label>
+                <input type="text" class="form-control" name="city" id="city" placeholder="City">
+              </div>
+
+              <div class="form-group col-md-4">
+                <!--Dropdown for state-->
+                <label>State</label>
+                <select class="form-control" name="state" id="state">
+                  <option selected>Choose..</option>
+                  <option>MP</option>
+                  <option>UP</option>
+                  <option>Haryana</option>
+                </select>
+              </div>
+
+
+              <div class="form-group col-md-2">
+                <label>Zip</label>
+                <input type="text" class="form-control" name="zip" id="zip" placeholder="Zip">
+              </div>
+            </div>
+            <!-- state,city and zip row close-->
+
+            <button type="submit" class="btn bg-success" name="button">Register</button>
+
+
+
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+</table>
+  </body>
+</html>
